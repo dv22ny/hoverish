@@ -1,14 +1,17 @@
 /**
  * @name hoverish
  * @author Vitamin D#1000
- * @version 2
+ * @version 1.1.0
  * @description best theme ever for BD you alr know
+ * @authorLink https://github.com/dv22ny
+ * @website https://vitamin-d.io
  */
 
 /* It's my theme, you're welcome.*/
 
 /* IMPORT CSS */
 @import url(https://clearvision.gitlab.io/v6/main.css);
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 
 /* SETTINGS */
 :root {
@@ -34,9 +37,9 @@
 	--offline-color: #ffa9f5ff; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
 	/* GENERAL */
-	--main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
+	--main-font: New Tegomin, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
 	--code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-	--text-normal: rgb(220, 221, 222); /* color of default discord text */
+	--text-normal: rgb(128, 131, 160); /* color of default discord text */
 	--text-muted:  rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
 	--channels-width: 240px; /* channel list width (240px for Discord default) [default: 220px] */
 	--members-width: 240px; /* member list width [default: 240px] */
@@ -45,7 +48,7 @@
 
 	/* APP BACKGROUND */
 	--background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
-	--background-overlay: rgba(56, 50, 77, 1); /* app background overlay color/gradient. More blueish hue so that you can read people's dark names. [default: rgba(0, 0, 0, 0.6)] */
+	--background-overlay: rgb(13, 7, 32); /* app background overlay color/gradient. More blueish hue so that you can read people's dark names. [default: rgba(0, 0, 0, 0.6)] */
 	--background-image: url(https://cdn.discordapp.com/attachments/771141632418119732/779463829302149190/unknown.png); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
 	--background-position: center; /* app background position [default: center] */
 	--background-size: cover; /* app background size [default: cover] */
@@ -57,7 +60,7 @@
 	--background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
 	--background-grayscale: 50%; /* app background grayscale ( 0 - 100%) [default: 0%] */
 	--background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
-	--background-blur: 0px; /* app background blur [default: 0px] */
+	--background-blur: 10px; /* app background blur [default: 0px] */
 
 	/* HOME BUTTON ICON */
 	--home-icon: url(https://icon-library.com/images/yellow-discord-icon/yellow-discord-icon-29.jpg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
