@@ -1,0 +1,2 @@
+# hoverish
+ Theme for BetterDiscord
